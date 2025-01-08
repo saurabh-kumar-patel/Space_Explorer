@@ -2,7 +2,16 @@
 
 A new Flutter project.
 
-## Getting Started
+## The Space Explorer app is a versatile and interactive platform designed to bring the universe closer to 
+users by consolidating space-related data from prominent organizations like NASA, ISRO, and 
+SpaceX. It also includes a comprehensive catalog of celestial bodies, offering an unparalleled resource 
+for exploring the cosmos. The app integrates NASA’s Astronomy Picture of the Day (APOD) API, 
+delivering stunning daily images of celestial phenomena with accompanying metadata, such as titles, 
+dates, and detailed scientific descriptions. Beyond NASA, the app leverages ISRO’s publicly available 
+data to provide insights into spacecraft, satellites, payloads, rocket types, and mission statuses, 
+showcasing India’s significant contributions to space exploration. Additionally, the app features a 
+dedicated section for SpaceX projects, presenting a timeline of major milestones, mission details, and 
+outcomes, offering users a glimpse into the advancements of commercial spaceflight.
 
 This project is a starting point for a Flutter application.
 
