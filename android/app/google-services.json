@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "332948272800",
+    "project_id": "spaceexplore-e7f19",
+    "storage_bucket": "spaceexplore-e7f19.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332948272800:android:aef19c8f486946caa33bc5",
+        "android_client_info": {
+          "package_name": "com.apod.apod"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAvul2TJuQc-1bt-o3y1PVxG6Vv5w2A9k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332948272800:android:a047bcdcac488363a33bc5",
+        "android_client_info": {
+          "package_name": "com.example.apod_backend"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAvul2TJuQc-1bt-o3y1PVxG6Vv5w2A9k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,2 @@
+D:/apod/android/app/.cxx/Debug/3a15s3h4/x86/CMakeFiles/edit_cache.dir
+D:/apod/android/app/.cxx/Debug/3a15s3h4/x86/CMakeFiles/rebuild_cache.dir

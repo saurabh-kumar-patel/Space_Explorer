@@ -1,0 +1,2 @@
+D:/apod/android/app/.cxx/RelWithDebInfo/2173412y/x86/CMakeFiles/edit_cache.dir
+D:/apod/android/app/.cxx/RelWithDebInfo/2173412y/x86/CMakeFiles/rebuild_cache.dir

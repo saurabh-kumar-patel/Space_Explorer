@@ -1,0 +1,38 @@
+buildscript {
+    ext.kotlin_version = '1.9.23'  // <--- ENSURE THIS LINE (OR SIMILAR) EXISTS
+    // Use the version appropriate for your Flutter setup.
+    // For recent Flutter versions (e.g., 3.19+), 1.9.23 is common.
+    // For Flutter 3.16, it might be 1.9.10.
+    // For Flutter 3.13, it might be 1.8.22.
+    // Check your Flutter release notes or a new project for the correct version.
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.2.2' // Or the version appropriate for your Flutter setup
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'com.google.gms:google-services:4.4.1' // Or latest
+        // NOTE: You might have id "com.google.gms.google-services" version "4.4.1" apply false
+        // in a plugins block in settings.gradle instead of a classpath here for newer Gradle.
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.buildDir = '../build'
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(':app')
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
