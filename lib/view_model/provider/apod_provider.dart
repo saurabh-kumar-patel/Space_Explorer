@@ -8,7 +8,7 @@ import 'package:async/async.dart';
 import '../../model/apod_model.dart';
 
 class ApodProvider extends ChangeNotifier {
-  final String _apikey = 'Ih4Vndt2x5LHdI6ELtMW9Sdtq85zh0kAopAaOsnb';
+  final String _apikey = '';
   final int _count = 50;
   CancelableOperation? cancelOperation;
 // APOD Fetch Data
