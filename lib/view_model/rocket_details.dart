@@ -460,68 +460,68 @@ class RocketDetails extends StatelessWidget {
                 ],
               ),
               const SizedBox(height: 8),
-              Card(
-                elevation: 2,
-                shadowColor: Colors.white12,
-                color: Cardcolor,
-                shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(8)),
-                child: Padding(
-                  padding: const EdgeInsets.all(12.0),
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      const Text(
-                        "Satish Dhawan Space Centre (SDSC) SHAR", // Hardcoded - Ideally fetch if available
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 18, // Adjusted size
-                          color: Textcolor,
-                        ),
-                      ),
-                      const Text(
-                        "Sriharikota, Andhra Pradesh, India", // Hardcoded
-                        style: TextStyle(
-                          fontSize: 14, // Adjusted size
-                          color: Colors.white70,
-                        ),
-                      ),
-                      const Padding(
-                        padding: EdgeInsets.symmetric(vertical: 10.0),
-                        child: Divider(
-                            height: 1, thickness: 1, color: Colors.grey),
-                      ),
-                      TextButton(
-                          style: TextButton.styleFrom(
-                              padding: EdgeInsets.zero,
-                              minimumSize: Size(50, 30)),
-                          onPressed: () {
-                            // Use the specific link if available, otherwise the general one
-                            launchLink(
-                                "https://en.wikipedia.org/wiki/Satish_Dhawan_Space_Centre");
-                          },
-                          child: const Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Text(
-                                "More Info (Launch Site)",
-                                style: TextStyle(
-                                    color: Colors.blueAccent, // Link color
-                                    fontSize: 16,
-                                    fontWeight: FontWeight.w700),
-                              ),
-                              Icon(
-                                Icons.arrow_forward_ios_rounded,
-                                size: 18,
-                                color: Colors.blueAccent,
-                              ),
-                            ],
-                          )),
-                    ],
-                  ),
-                ),
-              ),
+              // Card(
+              //   elevation: 2,
+              //   shadowColor: Colors.white12,
+              //   color: Cardcolor,
+              //   shape: RoundedRectangleBorder(
+              //       borderRadius: BorderRadius.circular(8)),
+              //   child: Padding(
+              //     padding: const EdgeInsets.all(12.0),
+              //     child: Column(
+              //       mainAxisSize: MainAxisSize.min,
+              //       crossAxisAlignment: CrossAxisAlignment.start,
+              //       children: [
+              //         const Text(
+              //           "Satish Dhawan Space Centre (SDSC) SHAR", // Hardcoded - Ideally fetch if available
+              //           style: TextStyle(
+              //             fontWeight: FontWeight.bold,
+              //             fontSize: 18, // Adjusted size
+              //             color: Textcolor,
+              //           ),
+              //         ),
+              //         const Text(
+              //           "Sriharikota, Andhra Pradesh, India", // Hardcoded
+              //           style: TextStyle(
+              //             fontSize: 14, // Adjusted size
+              //             color: Colors.white70,
+              //           ),
+              //         ),
+              //         const Padding(
+              //           padding: EdgeInsets.symmetric(vertical: 10.0),
+              //           child: Divider(
+              //               height: 1, thickness: 1, color: Colors.grey),
+              //         ),
+              //         TextButton(
+              //             style: TextButton.styleFrom(
+              //                 padding: EdgeInsets.zero,
+              //                 minimumSize: Size(50, 30)),
+              //             onPressed: () {
+              //               // Use the specific link if available, otherwise the general one
+              //               launchLink(
+              //                   "https://en.wikipedia.org/wiki/Satish_Dhawan_Space_Centre");
+              //             },
+              //             child: const Row(
+              //               mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              //               children: [
+              //                 Text(
+              //                   "More Info (Launch Site)",
+              //                   style: TextStyle(
+              //                       color: Colors.blueAccent, // Link color
+              //                       fontSize: 16,
+              //                       fontWeight: FontWeight.w700),
+              //                 ),
+              //                 Icon(
+              //                   Icons.arrow_forward_ios_rounded,
+              //                   size: 18,
+              //                   color: Colors.blueAccent,
+              //                 ),
+              //               ],
+              //             )),
+              //       ],
+              //     ),
+              //   ),
+              // ),
             ],
           ),
         ),

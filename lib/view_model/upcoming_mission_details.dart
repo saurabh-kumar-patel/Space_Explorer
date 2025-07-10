@@ -236,26 +236,6 @@ class UpcomingMissionPage extends StatelessWidget {
                         child: Divider(
                             height: 2, thickness: 4, color: Colors.grey),
                       ),
-                      TextButton(
-                          onPressed: () {
-                            launchLink(
-                                "https://en.wikipedia.org/wiki/Satish_Dhawan_Space_Centre");
-                          },
-                          child: const Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Text("More Info",
-                                  style: TextStyle(
-                                      color: Textcolor,
-                                      fontSize: 20,
-                                      fontWeight: FontWeight.w700)),
-                              Icon(
-                                Icons.arrow_forward_ios_rounded,
-                                size: 20,
-                                color: Colors.white,
-                              )
-                            ],
-                          )),
                     ],
                   ),
                 ),

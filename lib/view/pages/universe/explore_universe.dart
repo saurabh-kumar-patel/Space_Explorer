@@ -22,7 +22,7 @@ class ExploreUniverse extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             spacing: 8,
-            children: [
+            children: [                                    
               const Text(
                 "Explore The",
                 style: TextStyle(
